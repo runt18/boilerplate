@@ -1,0 +1,24 @@
+@import 'nib'
+
+*
+  box-sizing(border-box)
+
+.clearfix:before, .clearfix:after
+  content " "
+  display table
+
+.clearfix:after
+  clear both
+
+.clearfix
+  *zoom 1
+
+.left
+  float left
+
+.right
+  float right
+
+body
+  font-family Helvetica, sans-serif
+  margin 0
