@@ -1,9 +1,8 @@
 {
-  "name": "",
+  "name": "boilerplate",
   "version": "0.0.1",
   "description": "",
   "main": "js/all.js",
-  "dependencies": {},
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-jst": "*",
@@ -13,7 +12,8 @@
     "grunt-contrib-connect": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-copy": "*",
-    "grunt-contrib-uglify": "*"
+    "grunt-contrib-uglify": "*",
+    "load-grunt-tasks": "^3.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

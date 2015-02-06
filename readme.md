@@ -1,14 +1,11 @@
-#
+# Project Name
 
-## Credits
-- [Normalize.css][]
-- [jQuery][]
+> Description here.
 
-[normalize.css]: http://necolas.github.io/normalize.css/
-[jquery]:        http://jquery.com/
+## Install
+
+Installation instructions.
 
 ## License
 
-MIT licensed
-
-Copyright (c) 2013 Giles Lavelle
+MIT
