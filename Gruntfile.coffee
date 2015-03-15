@@ -1,10 +1,8 @@
 module.exports = (grunt) ->
   grunt.initConfig
-    pkg: grunt.file.readJSON('package.json')
-
     uglify:
       options:
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+        banner: ''
 
       my_target:
         files:
@@ -58,7 +56,7 @@ module.exports = (grunt) ->
           dest: 'build'
         ]
 
-  require('load-grunt-tasks')(grunt)
+  require('jit-grunt')(grunt)
 
   grunt.registerTask 'default', ['stylus', 'coffee', 'jst']
   grunt.registerTask 'build', ['default', 'copy', 'uglify']

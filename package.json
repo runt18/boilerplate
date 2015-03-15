@@ -4,16 +4,16 @@
   "description": "",
   "main": "js/all.js",
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-jst": "*",
-    "grunt-contrib-coffee": "*",
-    "grunt-contrib-stylus": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-connect": "*",
+    "grunt": "^0.4.5",
     "grunt-contrib-clean": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-connect": "*",
     "grunt-contrib-copy": "*",
+    "grunt-contrib-jst": "*",
+    "grunt-contrib-stylus": "*",
     "grunt-contrib-uglify": "*",
-    "load-grunt-tasks": "^3.1.0"
+    "grunt-contrib-watch": "*",
+    "jit-grunt": "^0.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
